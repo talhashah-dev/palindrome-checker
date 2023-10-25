@@ -1,5 +1,82 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e3a52;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 80vh;
+    height: 55vh;
+    background-color: white;
+    margin-top: 25vh;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container input{
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.container button{
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+    background-color: #9935c0;
+    color: white;
+}
+
+.container button:hover{
+    background-color: #5b2470;
+}
+.container button:active{
+    transform: scale(0.99);
+}
+
+
+
+.text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+p, strong{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+strong{
+    color: purple;
+    margin: 0 8px;
+}
+
+strong:hover{
+    text-decoration: underline;
+}
+
