@@ -96,3 +96,26 @@ body {
 .info-text span {
   color: #9935c0;
 }
+
+
+/* Media Queries for Small Devices */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    height: auto;
+    margin-top: 10vh;
+  }
+
+  .container input,
+  .container button {
+    font-size: 16px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .info-text {
+    font-size: 16px;
+  }
+}
