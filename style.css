@@ -34,7 +34,6 @@ body {
   width: 85vh;
   height: 55vh;
   background-color: white;
-  margin-top: 25vh;
   border-radius: 8px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -128,5 +127,16 @@ body {
 
   .info-text {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    margin-top: 0px;
+  }
+
+  .text h1 {
+    font-size: 24px;
+    font-weight: bolder;
   }
 }
